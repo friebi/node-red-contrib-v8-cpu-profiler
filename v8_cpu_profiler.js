@@ -15,7 +15,7 @@
  **/
  module.exports = function(RED) {
     var settings = RED.settings;
-    const v8ProfilerNext = require('v8-profiler-next');
+    const v8ProfilerNext = require('@yrambler2001/v8-profiler-next');
 
     function V8CpuProfilerNode(config) {
         RED.nodes.createNode(this,config)
